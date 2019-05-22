@@ -1,0 +1,116 @@
+*{}
+body{
+    padding: 0;
+    margin: 0;
+}
+.top-menu{
+    background: black;
+    color: white;
+}
+.top-menu h1{
+    padding: 8px;
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.top-menu a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: 15px;
+    color: #0dc50d;
+}
+.submenu{
+    border: 1px solid;
+    text-align: center;
+    text-transform:capitalize;
+}
+.submenu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 2px 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-bottom: 5px solid;
+    border-bottom-color: transparent;
+    margin-top: 0px;
+    padding-top: 10px;
+    transition: 0.4s cubic-bezier(0.4, 0, 1, 1);
+}
+.submenu a:hover{
+    background: #e8e2e2;
+    border-bottom: 5px solid;
+    border-color: #54ddf7;
+}
+.body-heading{
+    text-align: center;
+    text-transform: capitalize;
+}
+.body-heading h1{
+    font-size: 40px;
+    margin: 60px 0 0 0;
+}
+.body-heading p{
+    margin: 6px 0 50px 0;
+}
+.menu{
+    width: 20%;
+    float: left;
+    height: 100vh;
+}
+
+
+
+.menu-desing{}
+
+.menu-desing li{
+    list-style: none;
+    padding: 4px 0;
+}
+.menu-desing li a{
+    text-decoration: none;
+    color: #a47678;
+    text-transform: capitalize;
+}
+.menu-desing li a:hover{
+    color: black;
+    font-weight: 900;
+}
+.gallary{}
+.container{}
+.gallary-img{
+    display: inline-block;
+    margin: 0 auto;
+}
+.gallary-img h5{margin: 5px 0 0 10px;font-size: 20px;font-weight: 100;text-transform: capitalize;transition: 0.2s ease;}
+.gallary-img img{
+    padding: 26px 10px 0 10px;
+}
+.gallary-img img:hover{}
+.gallary-img h5:hover{
+    color: #00d000;
+}
+
+
+footer{
+    background: #f9f9f9;
+    margin-top: 100px;
+    text-align: center;
+    padding: 70px;
+}
+
+.self{
+    display: inline-block;
+    width: 32.33%;
+    margin: 0;
+    padding: 0;
+}
+.self h3{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.self h3 span{
+    font-weight: 700;
+}
+.self p{}
